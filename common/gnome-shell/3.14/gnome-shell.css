@@ -648,9 +648,11 @@ StScrollBar {
   font-weight: bold;
   height: 2.1em;
   min-height: 27px;
-  background-color: transparent !important;
+  background-color: rgba(0,0,0,0.4);
   background-gradient-direction: none !important;
   border-bottom: 0px !important;
+  border-image:none;}
+  #panel.solid{
   border-image: url("common-assets/panel/panel.svg") 1 1 1 1 !important; }
   #panel.dynamic-top-bar-white-btn {
     border-image: none; }
